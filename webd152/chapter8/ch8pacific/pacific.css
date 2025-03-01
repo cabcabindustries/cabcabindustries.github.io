@@ -45,7 +45,7 @@ nav ul {
   padding-left: 0; /* pl0 */
 }
 nav li {
-  border-bottom: none; /* bdb */
+  border-bottom: 1px solid #002171; /* bdb */
 }
 nav a {
   text-decoration: none; /* txd */
