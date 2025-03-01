@@ -158,6 +158,7 @@ footer {
   }
    nav {
     text-align: left; /* ta:l */
+    padding-left: 1em; /* pl1em */
    }
    @supports (display: grid) {
     nav ul {
@@ -169,7 +170,7 @@ footer {
     nav { grid-area: nav;}
     main{ grid-area: main;}
     footer {grid-area: footer;}
-    #wrapper {grid-area: grid;
+    #wrapper {display: grid;
     grid-template: 
     "header header"
     "nav header"
