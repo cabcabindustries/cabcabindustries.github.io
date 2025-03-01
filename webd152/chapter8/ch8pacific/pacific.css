@@ -173,7 +173,6 @@ footer {
     #wrapper {display: grid;
     grid-template: 
     "header header"
-    "nav header"
     "nav hero"
     "nav main"
     "nav footer"
