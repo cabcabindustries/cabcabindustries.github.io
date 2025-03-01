@@ -41,7 +41,7 @@ nav {
   float: left; /* fl */
   /* font-size: 120%; ffz120% */
   font-weight: bold; /* fwb */
-  padding: 1em .5em; /* p1em */
+  padding: 1em 0.5em; /* p1em */
   width: 160px; /* w160 */
 }
 nav ul {
@@ -71,7 +71,7 @@ main {
   overflow: auto; /* ova */
 }
 section {
-  float: lef; /* fl */
+  float: left; /* fl */
   padding-left: 2em; /* pl2em */
   padding-right: 2em; /* pr2em */
   width: 33%; /* w33% */
