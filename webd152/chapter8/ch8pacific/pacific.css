@@ -124,6 +124,7 @@ footer {
     background-image: none;
   }
 }
+
 @media (min-width: 600px) {
   nav ul {
     display: flex; /* df */
@@ -131,7 +132,7 @@ footer {
     flex-wrap: nowrap; /* flw */
     justify-content: space-around; /* jc */
   }
-  nav il {
+  nav li {
     border-bottom: none; /* bdbn */
   }
   .flow {
