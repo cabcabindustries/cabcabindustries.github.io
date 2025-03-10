@@ -179,7 +179,7 @@ tr:nth-last-of-type(odd) {
   td.description,
   td.nights,
   td.cost {
-    padding: 35%; /* p35% */
+    padding-left: 35%; /* p35% */
     position: relative; /* pos:r */
     text-align: left; /* ta:l */
     font-size: 4vw;
