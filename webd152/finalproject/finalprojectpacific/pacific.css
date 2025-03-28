@@ -74,6 +74,7 @@ h1 {
 h1,
 h2,
 h3,
+h4,
 footer {
   font-family: Georgia, "Times New Roman", serif;
 }
@@ -83,6 +84,10 @@ h2 {
 }
 h3 {
   color: #003; /* c#003 */
+}
+h4 {
+  color: #003; /* c#003 */
+  text-align: right;
 }
 dt {
   color: #002171; /*c#002171 */
@@ -109,6 +114,12 @@ footer {
 }
 #yurthero {
   background-image: url(images/yurt.jpg); /* bgi */
+  background-repeat: no-repeat; /* bgr */
+  background-size: 100% 100%; /* bgz100%100% */
+  height: 300px; /* h300 */
+}
+#aboutushero {
+  background-image: url(images/WaterFall2.jpg); /* bgi */
   background-repeat: no-repeat; /* bgr */
   background-size: 100% 100%; /* bgz100%100% */
   height: 300px; /* h300 */
@@ -164,12 +175,35 @@ video{
 
 }
 
+.img1 {
+  float: right;
+  
+  margin: 0px 0px 15px 20px;
+  flex: 1;
+  padding: 2em;
+}
+
+.img2 {
+  float: left;
+  padding: 2em;
+  margin: 0px 0px 15px 20px;
+  flex: 1;
+}
+
+.quote {
+  font-style: italic;
+}
+
+
+
+
 @media (max-width: 600px) {
   header {
     background-image: none;
   }
   #homehero,
   #yurthero,
+  #aboutushero,
   #trailhero {
     background-size: cover;
   }
@@ -217,6 +251,10 @@ video{
   td:last-of-type {
     border-bottom: 2px solid #1b69b2; /* bb2-solid#1b69b2 */
   }
+.column{
+  flex: 0%;
+}
+  
 }
 
 @media (min-width: 600px) {
@@ -232,6 +270,12 @@ video{
   .flow {
     display: flex; /* df */
     flex-direction: row; /* fdr */
+  }
+  .container {
+    display: grid;
+   align-items: center; 
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 5px;
   }
   section {
     flex: 1; /* flex1 */
@@ -250,6 +294,24 @@ video{
   }
   #gallery{
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .column{
+    flex: 50%;
+    padding: 10px;
+    
+    
+  }
+
+  .column2{
+    flex: 50%;
+    padding: 10px;
+    background-color: #1976d2;
+  }
+  
+  .row{
+    display: flex;
+    
   }
 }
 
